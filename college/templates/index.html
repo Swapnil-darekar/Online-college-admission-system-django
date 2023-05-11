@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{title}}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style1.css'%}">
+    
+</head>
+
+<body>
+
+<div class="top-header">
+         <div class="logo">
+            <a href="https://www.dypcollege.org"><img src="/static/images/dyplogo.jpg"></a>
+            <h4>Konwledge is Power</h4>
+        </div>
+    </div>
+
+    <div class="header-links">
+            <div class="inner_headerlinks">
+                <img src="/static/images/call-icon.png" class="call_icon" alt="Dyp College Phone"/>
+               <h4> Phone : </h4><h3 class="phone">(02112) 222405 , (02112) 223635</h3>
+                <div class="fb-icon">
+                    <img src="/static/images/fb-icon.png" class="fb_icon" alt="DYP College facebook"/>
+                </div>
+                <div class="fb">
+                    <h5 class="follow">Follow Us : <a href="#"> on Facebook!</a></h5>
+                </div>
+
+            </div>
+                <div class="contact_block">
+                    <img class="mail-icon" src="/static/images/mail-icon.png" alt="DYP College Mail"/>
+                    <div class="contact_innerblock">
+                        <div>
+                            <a href="mailto:principal@dypcollege.org" target="_blank">principal@dypcollege.org</a>
+                        </div>
+                        <div>
+                            <a href="mailto:principal.dypcollege@gmail.com" target="_blank">principal.dypcollege@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+<div class="abc light">
+    <div class="xyz">
+        <div id="logo">
+            <img id="clglogo" src="/static/images/dyplogo.jpg" width="200">
+            <h1 class="dypatil">Dr.D.Y.PATIL</h1>
+            <h1 class="clg_of_eng">College Of Engineering and Innovation</h1>
+            <h1 class="approved">APPROVED BY AICTE,RECOGNIZED BY GOVT.OF</h1>
+            <h1 class="sppu">MAHARASHTRA & AFFILIATED TO S.P.PUNE UNIVERSITY</h1>
+        </div>
+    </div>
+        <div class="search">
+            <form>
+                <input id="textbox" type="text" name="textbox">
+                <input id="button" type="button" name="search" value="search">
+            </form>
+        </div>
+        <div id="clear"></div>
+
+
+    </div>
+</div>
+<nav class="nav-area">
+		<ul>
+			<li>
+				<a href="#">home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Courses</a>
+				<ul>
+					<li>
+						<a href="#">MCA</a>
+					</li>
+					<li>
+						<a href="#">MBA</a>
+					</li>
+					<li>
+						<a href="#">Computer Engineering</a>
+					</li>
+
+				</ul>
+			</li>
+			<li>
+				<a href="/login">Admission</a>
+			</li>
+			<li>
+				<a href="#">Online Payment</a>
+			</li>
+            <li>
+				<a href="#">Student Corner </a>
+			</li>
+            <li>
+				<a href="#">Gallery</a>
+			</li>
+            <li>
+				<a href="#">Contact Us</a>
+			</li>
+		</ul>
+    <label id="icon">
+        <i class="fas fa-bars"></i>
+    </label>
+	</nav>
+
+        <div class="dypimg">
+            {% comment %} <marquee direction="left"><h1 class="marquee"> Dr. D. Y. Patil College of Engineering and Innovation, Varale, Talegaon,
+                Pune</h1></marquee> {% endcomment %}
+            <img src="/static/images/dypimg.png">
+        </div>
+  
+
+</body>
+</html>

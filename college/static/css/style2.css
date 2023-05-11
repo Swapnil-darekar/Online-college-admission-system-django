@@ -1,0 +1,50 @@
+
+#clglogo
+{
+	width: 150px;
+	position: relative;
+	left: 330px;
+	top: 30px;
+}
+.clg_name
+{
+	position: relative;
+	bottom: 20px;
+}
+.clg_name_label
+{
+	position: relative;
+	bottom: 0px;
+}
+.dypatil
+{
+	color: #c31d0c;
+	font-size: 50px;
+	position: relative;
+	left: 670px;
+	bottom: 120px;
+}
+.clg_of_eng
+{
+	color: #c31d0c;
+	position: relative;
+	left: 500px;
+	bottom: 135px;
+    font-size: 35px;
+}
+.application_label
+{
+	color: #c31d0c;
+	position: relative;
+	left: 500px;
+	bottom: 145px;
+    font-size: 35px;
+}
+
+.slider_bg
+{
+    width: 100%;
+    position: relative;
+    bottom: 145px;
+}
+

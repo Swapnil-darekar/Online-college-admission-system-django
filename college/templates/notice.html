@@ -1,0 +1,14 @@
+{% extends 'basic.html' %}
+
+{% block title %} Important Notice {% endblock %}
+{% block home %} active {% endblock %}
+
+{% block css %}
+{% endblock %}
+{% block body %}
+<div class="container mt-2">
+{% for i in details %}
+<h6 style="margin-top: 2rem;">{{forloop.counter}}] {{i.notice}}</h6>
+{% endfor %}
+</div>
+{% endblock %}
